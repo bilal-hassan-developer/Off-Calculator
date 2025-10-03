@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert("Simple Off Calculator")
+        function offcalculater(){
+        let percentage= prompt("enter your percentage");
+        percentage = Number(percentage);
+        let totalmarks= prompt("enter your total marks");
+        totalmarks = Number(totalmarks);
+        const offnumber = (percentage/100)*totalmarks;
+        return offnumber;
+
+    }
+    const result = offcalculater();
+    alert(result)
+
+    </script>
+</body>
+</html>
